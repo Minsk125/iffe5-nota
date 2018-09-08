@@ -1,0 +1,30 @@
+.wrapper {
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.icon__post,.icon__register,.icon__schedule,.icon__location{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon__icon img{
+  width: 40%;
+}
+.icon__text{
+  font-size: 6px;
+  text-transform: uppercase;
+  color: #5d6166;
+}
+.icon__text a{
+  text-decoration: none;
+  color: #5d6166;
+}
+.icon__text span{
+  text-decoration: underline;
+}
+.icon__schedule .icon__text{
+  text-transform: none;
+}
+.icon__location .icon__text{
+  text-transform: none;
+}
